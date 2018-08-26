@@ -152,26 +152,76 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\common.css" />
+    <Content Include="Content\lightbox.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\style4.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Imagens\abt-bg.jpg" />
+    <Content Include="Imagens\abt.jpg" />
+    <Content Include="Imagens\bnr3.jpg" />
+    <Content Include="Imagens\close.png" />
+    <Content Include="Imagens\d1.jpg" />
+    <Content Include="Imagens\d2.jpg" />
+    <Content Include="Imagens\d3.jpg" />
+    <Content Include="Imagens\d4.jpg" />
+    <Content Include="Imagens\d5.jpg" />
+    <Content Include="Imagens\d6.jpg" />
+    <Content Include="Imagens\g1.jpg" />
+    <Content Include="Imagens\g2.jpg" />
+    <Content Include="Imagens\g3.jpg" />
+    <Content Include="Imagens\g4.jpg" />
+    <Content Include="Imagens\g5.jpg" />
+    <Content Include="Imagens\g6.jpg" />
+    <Content Include="Imagens\g7.jpg" />
+    <Content Include="Imagens\g8.jpg" />
+    <Content Include="Imagens\icon2.png" />
+    <Content Include="Imagens\next.png" />
+    <Content Include="Imagens\prev.png" />
+    <Content Include="Imagens\social.png" />
+    <Content Include="Imagens\t1.jpg" />
+    <Content Include="Imagens\t2.jpg" />
+    <Content Include="Imagens\t3.jpg" />
+    <Content Include="Imagens\team-1.jpg" />
+    <Content Include="Imagens\team-2.jpg" />
+    <Content Include="Imagens\team-3.jpg" />
+    <Content Include="Imagens\to-top1.png" />
+    <Content Include="Imagens\wel.jpg" />
+    <Content Include="Imagens\why.jpg" />
+    <Content Include="Scripts\bootstrap-3.1.1.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\OpenSans-Regular.ttf" />
+    <Content Include="fonts\TitilliumWeb-Bold.ttf" />
+    <Content Include="fonts\TitilliumWeb-Regular.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\easing.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\lightbox-plus-jquery.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr.custom.79639.js" />
+    <Content Include="Scripts\move-top.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\responsiveslides.min.js" />
+    <Content Include="Views\Home\about.html" />
+    <Content Include="Views\Home\contact.html" />
+    <Content Include="Views\Home\gallery.html" />
+    <Content Include="Views\Home\Index.html" />
+    <Content Include="Views\Home\login.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -183,8 +233,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>

@@ -1,31 +1,220 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿
+<html>
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<body>
+    
+    <!---->
+    <div class="banner">
+        <div class="container">
+            <div class="banner-grids">
+                <div class="col-md-6 banner-grid grid1">
+                    <div class="package">
+                        <h3><a href="#">Nacionais</a></h3>
+                        <ul>
+                            <li><a href="#">Praia Brava, </a></li>
+                            <li><a href="#">Serra Gaúcha, </a></li>
+                            <li><a href="#">Lencois Maranheces</a></li>
+                        </ul>
+                        <span class="glyphicon1 glyphicon-globe" aria-hidden="true"></span>
+                    </div>
+                </div>
+                <div class="col-md-6 banner-grid">
+                    <div class="package">
+                        <h3><a href="#">Internacionais</a></h3>
+                        <ul>
+                            <li><a href="#">Hong Kong, </a></li>
+                            <li><a href="#">Germany, </a></li>
+                            <li><a href="#">Italy</a></li>
+                        </ul>
+                        <span class="glyphicon1 glyphicon-plane" aria-hidden="true"></span>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <div class="welcome">
+        <div class="container">
+            <div class="welcome-grids">
+                <div class="col-md-6 welcm-pic">
+                    <img src="~/Imagens/wel.jpg" class="img-responsive" alt="" />
+                </div>
+                <div class="col-md-6 wel-info">
+                    <h2>Seja Bem Vindo</h2>
+                    <h4>
+                        Conheça os lugares mais lindos do Brasil e do mundo
+                        leve seu esporte com você
+                    </h4>
+                    <p>Surfe pelas praias mais lindas do planeta, mergulhe entre os mais lindos animais aquáticos, suba as montanhas mais altas, atravesse as florestas mais densas ou salte das maiores alturas. </p>
+                    <p>Você decide onde e o que fazer, o resto deixa com a gente ;)</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <div class="choose">
+        <h3>Dê um UP na sua "Trip"</h3>
+        <div class="container">
+            <div class="choos-girds">
+                <div class="col-md-4 choos-grid">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <h4>Clientes Satisfeitos</h4>
+                    <p>...</p>
+                </div>
+                <div class="col-md-4 choos-grid">
+                    <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                    <h4>Melhor Escolha</h4>
+                    <p>...</p>
+                </div>
+                <div class="col-md-4 choos-grid">
+                    <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+                    <h4>Melhor Custo-Benefício</h4>
+                    <p>...</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <div class="testimonal">
+        <div class="container">
+            <div class="testi-top">
+                <h3>Depoimentos</h3>
+                <p>...</p>
+            </div>
+            <div class="testi-slider">
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+                <script>
+                    // You can also use "$(window).load(function() {"
+                    $(function () {
+                        // Slideshow 4
+                        $("#slider2").responsiveSlides({
+                            auto: true,
+                            pager: true,
+                            nav: false,
+                            speed: 500,
+                            namespace: "callbacks",
+                            before: function () {
+                                $('.events').append("<li>before event fired.</li>");
+                            },
+                            after: function () {
+                                $('.events').append("<li>after event fired.</li>");
+                            }
+                        });
+
+                    });
+                </script>
+                <div id="top" class="callbacks_container">
+                    <ul class="rslides" id="slider2">
+                        <li>
+                            <div class="testimonial-grids">
+                                <div class="testimonial-left">
+                                    <img src="~/Imagens/t1.jpg" alt="" />
+                                </div>
+                                <div class="testimonial-right">
+                                    <p>
+                                        <span>"</span> ...<span>"</span>
+                                    </p>
+                                    <h5>fulano</h5>
+                                    <h6>salvador,BA</h6>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="testimonial-grids">
+                                <div class="testimonial-left">
+                                    <img src="~/Imagens/t3.jpg" alt="" />
+                                </div>
+                                <div class="testimonial-right">
+                                    <p>
+                                        <span>"</span> ...<span>"</span>
+                                    </p>
+                                    <h5>Cicrano</h5>
+                                    <h6>Rio de Janeiro, RJ</h6>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="testimonial-grids">
+                                <div class="testimonial-left">
+                                    <img src="~/Imagens/t2.jpg" alt="" />
+                                </div>
+                                <div class="testimonial-right">
+                                    <p>
+                                        <span>"</span> ...<span>"</span>
+                                    </p>
+                                    <h5>Beltrano</h5>
+                                    <h6>indaial, SC</h6>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <!---->
+    <div id="destination" class="destination">
+        <div class="container">
+            <div class="destination-top">
+                <h3>Destinos</h3>
+                <p>Os lugares mais lindos e radicais do mundo vc encontra aki</p>
+            </div>
+            <div class="destintn-grids">
+                <div class="col-md-4 desti-grid">
+                    <a class="example-image-link" href="~/Imagens/d1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="~/Imagens/d1.jpg" alt="" /></a>
+                    <div class="desti-info">
+                        <h5><a href="#">Ondas Animais</a></h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 desti-grid">
+                    <a class="example-image-link" href="~/Imagens/d2.jpg" data-lightbox="example-set"><img class="example-image" src="~/Imagens/d2.jpg" alt="" /></a>
+                    <div class="desti-info">
+                        <h5><a href="#">As Montanhas Mais Altas</a></h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 desti-grid">
+                    <a class="example-image-link" href="~/Imagens/d3.jpg" data-lightbox="example-set"><img class="example-image" src="~/Imagens/d3.jpg" alt="" /></a>
+                    <div class="desti-info">
+                        <h5><a href="#">As Florestas Mais Selvagens</a></h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="destintn-grids">
+                <div class="col-md-4 desti-grid">
+                    <a class="example-image-link" href="~/Imagens/d4.jpg" data-lightbox="example-set"><img class="example-image" src="~/Imagens/d4.jpg" alt="" /></a>
+                    <div class="desti-info">
+                        <h5><a href="#">Os Mergulhos Mais Loucos</a></h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 desti-grid">
+                    <a class="example-image-link" href="~/Imagens/d5.jpg" data-lightbox="example-set"><img class="example-image" src="~/Imagens/d5.jpg" alt="" /></a>
+                    <div class="desti-info">
+                        <h5><a href="#">Os Saltos Mais Sinistros</a></h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 desti-grid">
+                    <a class="example-image-link" href="~/Imagens/d6.jpg" data-lightbox="example-set"><img class="example-image" src="~/Imagens/d6.jpg" alt="" /></a>
+                    <div class="desti-info">
+                        <h5><a href="#">As Pistas Mais Ousadas</a></h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+
+</body>
+</html>

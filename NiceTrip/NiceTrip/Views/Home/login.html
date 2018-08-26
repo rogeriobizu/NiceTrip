@@ -1,0 +1,153 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>NiceTrip</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/lightbox.css">
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--//theme style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Goaway Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<!-- header -->
+<div class="top-header">
+	 <div class="container">
+		 <div class="logo">
+			 <h1><a href="index.html"><span class="glyphicon glyphicon-road" aria-hidden="true"></span>NiceTrip</a></h1>
+		 </div>		 
+	 </div>
+</div>
+<!---->
+<div class="top-menu">
+	 <div class="container">
+	  <div class="content white">
+		 <nav class="navbar navbar-default">
+			 <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>				
+			 </div>
+			 <!--/navbar header-->		
+			 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				 <ul class="nav navbar-nav">
+					 <li class="active"><a href="index.html">Inicio</a></li>
+					 <li><a href="about.html">Quem Somos</a></li>
+					 <li class="dropdown">
+						<a href="#" class="scroll dropdown-toggle" data-toggle="dropdown">Destinos<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a class="scroll" href="#destination">Praia e Sol</a></li>
+							<li><a class="scroll" href="#destination">Neve e Gelo</a></li>
+							<li><a class="scroll" href="#destination">Altas Altitudes</a></li>
+							<li><a class="scroll" href="#destination">Florestas Tropicais</a></li>
+						</ul>
+					 </li>					
+					 <li><a href="gallery.html">Galeria de Fotos</a></li>
+					 <li><a href="contact.html">Contato</a></li>
+                     <li><a href="login.html">Login</a></li>
+				 </ul>
+				</div>
+			  <!--/navbar collapse-->
+		 </nav>
+		  <!--/navbar-->		 
+	  </div>
+	 <div class="clearfix"></div>
+		<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+		</div>
+</div>
+<!---->
+<!--footer-->
+<div class="contact">
+	 <div class="container">
+			<div class="footer-top heading">
+				<h3>Login</h3>
+			</div>
+			<div class="footer-bottom">
+					<div class="col-md-8 footer-right">
+                        <h4>Email</h4>
+						<input type="text" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Digite seu email';}"/>
+                        <h4>Senha</h4>
+                        <input type="password" value="Senha" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Digite sua senha';}"/>
+					</div>
+				<div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!-- footer -->
+<div class="footer">
+	 <div class="container">
+		 <div class="footer-grids">
+			 <div class="col-md-6 news-ltr">
+				 <h4>Receba nossas ofertas</h4>
+				 <p>...</p>
+				 <form>					 
+					  <input type="text" class="text" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
+					 <input type="submit" value="Subscribe">
+					 <div class="clearfix"></div>
+				 </form>
+			</div>
+			 <div class="col-md-6 ftr-grid1">
+				 <h4>Informacoes</h4>
+				 <p>Acompanhe nossas redes sociais</p>
+				 <div class="social">							
+					<a href="#"><i class="facebook"></i></a>
+					<a href="#"><i class="twitter"></i></a>
+					<a href="#"><i class="dribble"></i></a>	
+					<a href="#"><i class="google"></i></a>	
+					<a href="#"><i class="youtube"></i></a>	
+			      </div>
+			 </div>			 
+			 <div class="clearfix"></div>
+		 </div>		 
+	 </div>
+</div>
+<div class="copywrite">
+	 <div class="container">
+			 <p> © 2018 Nice Trip</p>
+	 </div>
+</div>
+
+<!---->
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<!---->
+<!--/animatedcss-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!--script-->
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!---->
+<script src="js/responsiveslides.min.js"></script> 
+</body>
+</html>

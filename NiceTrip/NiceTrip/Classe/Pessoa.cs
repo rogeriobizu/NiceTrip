@@ -7,5 +7,9 @@ namespace NiceTrip.Classe
 {
     public class Pessoa
     {
+        string Email { get; set; }
+        string Nome { get; set; }
+        string Cpf { get; set; }
+        String Senha { get; set; }
     }
 }

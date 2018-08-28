@@ -1,4 +1,5 @@
-﻿using NiceTrip.Classe;
+﻿
+using NiceTrip.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

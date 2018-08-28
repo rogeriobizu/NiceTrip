@@ -54,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </li>
                             <li><a href="~/Views/Home/Gallery.html">Galeria de Fotos</a></li>
                             <li><a href="contact.html">Contato</a></li>
-                            <li><a href="~/Views/Home/Login.cshtml">Login</a></li>
+                            <li>@Html.ActionLink("Login","Index","Pessoas")</li>
                         </ul>
                     </div>
                     <!--/navbar collapse-->
@@ -121,23 +121,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!--script-->
         <script type="text/javascript">
             $(document).ready(function () {
-                /*
-                var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear'
-                };
-                */
                 $().UItoTop({ easingType: 'easeOutQuart' });
             });
         </script>
         <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
         <!---->
         <script src="~/Scripts/responsiveslides.min.js"></script>
-</body>
-</html>
-        </div>
 
 @Scripts.Render("~/bundles/jquery")
 @Scripts.Render("~/bundles/bootstrap")

@@ -17,6 +17,7 @@ namespace NiceTrip.Controllers
         // GET: Pessoas
         public ActionResult Index()
         {
+            Pessoa pessoa = new Pessoa();
             return View(db.Pessoas.ToList());
         }
 

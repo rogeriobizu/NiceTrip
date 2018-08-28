@@ -4,47 +4,65 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<div class="contact">
+    <div class="container">
+        <div class="footer-top heading">
+            <h3>Informações Gerais</h3>
+        </div>
+        <div class="footer-bottom">
+            <div class="col-md-8 footer-right">
+                <h3>Pessoa</h3>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </dt>
 
-<div>
-    <h4>Pessoa</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Email)
+                    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Email)
-        </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Nome)
+                    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Cpf)
+                    </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Cpf)
-        </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Cpf)
+                    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Cpf)
-        </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Senha)
+                    </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Senha)
-        </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Senha)
+                    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Senha)
-        </dd>
+                </dl>
+                </div>
+            </div>
 
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-grids">
+                        <div class="col-md-6 news-ltr">
+                            <form>
+                                <p>
+                                    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+                                    @Html.ActionLink("Back to List", "Index")
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -149,6 +149,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\PessoasController.cs" />
+    <Compile Include="Models\Carrinho.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Colaborador.cs" />
     <Compile Include="Models\Contexto.cs" />
     <Compile Include="Controllers\CadastroController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -156,6 +159,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Equipamento.cs" />
+    <Compile Include="Models\Esporte.cs" />
+    <Compile Include="Models\Hospedagem.cs" />
+    <Compile Include="Models\Item.cs" />
     <Compile Include="Models\Pessoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -11,8 +11,7 @@
     <!--//theme style-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Goaway Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+ 
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <script src="~/Scripts/jquery.min.js"></script>
 </head>
@@ -41,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <!--/navbar header-->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="~/Views/Home/Index.cshtml">Inicio</a></li>
+                            <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
                             <li><a href="about.html">Quem Somos</a></li>
                             <li class="dropdown">
                                 <a href="#" class="scroll dropdown-toggle" data-toggle="dropdown">Destinos<b class="caret"></b></a>
@@ -54,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </li>
                             <li><a href="~/Views/Home/Gallery.html">Galeria de Fotos</a></li>
                             <li><a href="contact.html">Contato</a></li>
-                            <li>@Html.ActionLink("Login","Index","Pessoas")</li>
+                            <li>@Html.ActionLink("Login","Index","Clientes")</li>
                         </ul>
                     </div>
                     <!--/navbar collapse-->
@@ -76,8 +75,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <h4>Receba nossas ofertas</h4>
                         <p>...</p>
                         <form>
-                            <input type="text" class="text" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
-                            <input type="submit" value="Subscribe">
+                            <input type="text" class="text" value="Insira seu Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
+                            <input type="submit" value="Cadastre - se">
                             <div class="clearfix"></div>
                         </form>
                     </div>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<NiceTrip.Models.Cliente>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="contact">
+    <div class="container">
+        <div class="footer-top heading">
+            <h3>Login</h3>
+        </div>
+        <div class="footer-bottom">
+            <div class="col-md-8 footer-right">
+                <h4>Email</h4>
+                <input type="text" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Digite seu email';}" />
+                <h4>Senha</h4>
+                <input type="password" value="Senha" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Digite sua senha';}" />
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-grids">
+                    <div class="col-md-6 news-ltr">
+                        <form>
+                            <p>
+                                @Html.ActionLink("Novo Cadastro", "Create")
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

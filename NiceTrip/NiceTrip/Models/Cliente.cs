@@ -7,6 +7,6 @@ namespace NiceTrip.Models
 {
     public class Cliente:Pessoa
     {
-
+        public string Endereço { get; set; }
     }
 }
